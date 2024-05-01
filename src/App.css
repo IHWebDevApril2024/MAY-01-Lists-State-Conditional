@@ -1,0 +1,48 @@
+.student-container{
+    width: 70px;
+    height: 30px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+
+.student-container:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.recipe-container{
+    background-color: bisque;
+    color: black;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+}
+
+.recipe-container img{
+    width: 100%;
+}
+
+.recipes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    background-color: rgb(243, 237, 152);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
